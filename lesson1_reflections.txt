@@ -1,0 +1,43 @@
+*Joseph d'Eon
+*Git Tutorial Reflections 2
+*December 17, 2014
+
+How did using diff between two versions of a file help you see the bug that
+was introduced?
+
+-It made the search for typos much more efficient, because instead of looking
+-at every line, I only had to look at a few.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+-It will allow more organization between different versions of a program.
+
+
+What do you think are the pros and cons of manually choosing when to create 
+a commit, like you do in Git, vs having versions automatically saved, like 
+Google docs does?
+
+-Manually saving allows for more logical commits.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+-Git is geared toward programmers, and since programming lends to multiple file
+-dependencies, Git allows multiple file changes per commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+-git log shows you the history of commits. Once you see the history you
+-can use diff to track exact lines that have been changed with each commit.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+-I would not worry about breaking my code because I could easily revert to 
+a previous commit that I am confident works.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+-I want to use Git to learn JavaScript and make a personal Resume website.
