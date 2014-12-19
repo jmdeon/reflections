@@ -1,0 +1,16 @@
+*Joseph d'Eon
+*Git Tutorial Reflections 2
+*December 18, 2014
+
+What happens when you initialize a repository? Why do you need to do it?
+
+-The current directory seems to be made into a repository by adding a directory
+-called .git which stores a bunch of metadata about said repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+-The staging area seems to be a middle-ground between the working directory
+-and the repository. It makes it so you have more control over exactly what you
+-want added to the repo with each commit, so that the commit can be as logical
+-a change as possible.
