@@ -14,3 +14,35 @@ What value do you think it offers?
 -and the repository. It makes it so you have more control over exactly what you
 -want added to the repo with each commit, so that the commit can be as logical
 -a change as possible.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+-Only add files to staging area that are part of the same logical change.
+-Even if you've changed other things, if they are part of a different logical
+-change they can be added and committed later.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+-Branches allow for another logical structure decision when using git. If you
+-wish to change your code in a way that deviates from the standard progression
+-of your project, branching allows for more control by allowing the previous
+-branch to remain intact while you manipulate the new one. "Context Switch"
+
+How do the diagrams help you visualize the branch structure?
+
+-Diagrams are tremendously helpful for visualizing the stages and status of
+-your project.
+
+
+***********
+***Notes***
+***********
+git checkout -b new_branch_name
+-this is used for when you checkout an old commit, then begin making commits
+-from there. Since any commits made from an old commit are "unreachable",
+-this makes them reachable by creating a new branch starting from the commit
+-made from an old commit. It is equivalent to running the following two cmds:
+-git branch new_branch_name
+-git checkout new_branch_name
