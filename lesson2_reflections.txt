@@ -35,6 +35,14 @@ How do the diagrams help you visualize the branch structure?
 -Diagrams are tremendously helpful for visualizing the stages and status of
 -your project.
 
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+-Merging two branches weaves all additions together so that all features added
+-in both branches separately will be in the merged branched. We represent it
+-by two branch heads merging into one tip because that tip will have two 
+-parents, the old tips from each branch.
+
 
 ***********
 ***Notes***
