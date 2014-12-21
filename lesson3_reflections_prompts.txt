@@ -8,3 +8,13 @@ automatically stay up-to-date with your remote repository?
 
 -You may be in the middle of working on a feature, and you want to make sure
 -said feature works before any new code is pulled.
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+-forks: Used when you do not have permission to alter someone's code on github.
+-Forking makes a clone of the repo on GitHub under your name.
+-clone: Simply copies all files in one repo into a new one.
+-branch: Used within a repo to divert commit history into a new direction.
+-Used when you want to maintain original code while adding a new feature to
+-the new branch.
