@@ -43,6 +43,14 @@ the diagram the way we do?
 -by two branch heads merging into one tip because that tip will have two 
 -parents, the old tips from each branch.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+-pros: Allows for seamless weaving of two files that have been manipulated 
+-separately.
+-cons: When two people alter the same area, conflicts can emerge, which can
+-cause frustration, but with open communication is easily manageable.
+
 
 ***********
 ***Notes***
