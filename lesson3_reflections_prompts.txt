@@ -18,3 +18,10 @@ use one instead of another?
 -branch: Used within a repo to divert commit history into a new direction.
 -Used when you want to maintain original code while adding a new feature to
 -the new branch.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+-Having a copy of the last known state of the remote allows you to diff and
+-merge code together even when offline. If you know you're about to go offline,
+-you can fetch real quick, then work locally.
