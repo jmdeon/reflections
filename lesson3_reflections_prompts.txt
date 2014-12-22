@@ -25,3 +25,11 @@ stored locally?
 -Having a copy of the last known state of the remote allows you to diff and
 -merge code together even when offline. If you know you're about to go offline,
 -you can fetch real quick, then work locally.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+-I suppose I would simply take turns working on code with another person, each
+-having different time alloted so as not to have conflicts with code. 
+-Fighting over time slots would be a huge challenge and this method would not
+-be very efficient at all, but at least merging conflicts would never happen.
