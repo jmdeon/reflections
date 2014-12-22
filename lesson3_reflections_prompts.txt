@@ -33,3 +33,12 @@ and what would be harder?
 -having different time alloted so as not to have conflicts with code. 
 -Fighting over time slots would be a huge challenge and this method would not
 -be very efficient at all, but at least merging conflicts would never happen.
+
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+-When you are collaborating with others it seems like a good idea to always
+-use a different branch and then get feedback on your changes before merging
+-into the master branch.
+-The benefit of using master is speed and directness while using a separate
+-branch allows for safety and better collaboration.
