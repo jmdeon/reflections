@@ -1,3 +1,7 @@
+*Joseph d'Eon
+*Git Tutorial Reflections 3
+*December 21 2014
+
 When would you want to use a remote repository rather than keeping 
 all your work local?
 
